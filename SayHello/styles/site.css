@@ -1,0 +1,10 @@
+body {
+    background-color: antiquewhite;
+}
+input[type="text"]:focus {
+    background-color: rgb(141, 141, 129);
+}
+
+input[type="text"] {
+    border: 2px solid blue;
+}

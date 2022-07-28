@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="site.css">
+    <title>Coin Flip</title>
+</head>
+<body>
+    <div class="container">
+    <h1 class="display-1">Coin Flip</h1>
+        <h2 >Let's flip a coin! Choose heads or tails:</h2>
+        <button type="button" class="btn btn-primary btn-block"value="Heads" onclick="get_prediction(this.value); coin_flip()">Heads</button>
+        <button type="button" class="btn btn-primary btn-block" value="Tails" onclick="get_prediction(this.value); coin_flip()">Tails</button>
+        <p id="prediction">You guessed...</p>
+        <p id="flipResult">The coin flips and comes up ...</p>
+        <p id="accuracyOfGuess">Try Again/Good Guess!</p>
+    </div>
+    <script src="coinFlipFunction.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
